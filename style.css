@@ -1,0 +1,64 @@
+@font-face {
+  font-family: InstagramFont;
+  src: url(./Billabong.woff);
+}
+main {
+  width: 450px;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+}
+.logo {
+  width: 92%;
+  height: 390px;
+  margin: auto;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  border-radius: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px grey;
+}
+
+.camera {
+  width: 65%;
+  height: 260px;
+  border: 24px solid #fafafa;
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.screen {
+  width: 45%;
+  height: 120px;
+  border-radius: inherit;
+  border: inherit;
+}
+.flash {
+  width: 15%;
+  height: 40px;
+  background: #fafafa;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.appName {
+  font-family: instagramfont;
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgba(43, 74, 109, 0.199);
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 20px;
+}
